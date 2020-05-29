@@ -1,0 +1,39 @@
+
+package com.anwar.rafiqul;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+
+import android.media.Ringtone;
+import android.media.RingtoneManager;
+import android.net.Uri;
+import android.provider.Settings;
+
+public class DialogActivity extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
+        Uri ringtone = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE);
+        Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), ringtone);
+        r.play();
+        //playSound(r);
+        
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.activity_dialog);
+    }
+    
+    /*public void playSound(Ringtone r) {
+        r.play();
+    }*/
+
+    /**
+     * Callback method defined by the View
+     * @param v
+     */
+    public void finishDialog(View v) {
+        DialogActivity.this.finish();
+    }
+}

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="8dip">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:textSize="@dimen/font_medium"
+            android:text="@string/my_website"
+            android:typeface="monospace"
+            android:textColor="@color/white"
+        />-->
+        <TextView
+            android:id="@+id/contactHtml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_extra_medium"
+            android:typeface="monospace"
+            android:textColor="@color/white"
+        />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_large"
+            android:text="@string/enter_text_or_ascii_codes"
+            android:typeface="monospace"
+            android:textColor="@color/white"
+        />
+
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <EditText android:id="@+id/output"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dark_blue"
+                android:textColor="@color/light_blue"
+                android:padding="4dp"
+                android:typeface="monospace"
+            />
+
+        </ScrollView>-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <EditText android:id="@+id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/edit_text"
+                android:background="@color/white"
+                android:textColor="@color/colorPrimary"
+                android:padding="10dp"
+                android:typeface="monospace"
+            />
+
+        </ScrollView>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+        >
+            <!--<Button
+            android:id="@+id/about"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/about"
+            />-->
+
+            <Button
+                android:id="@+id/text_to_binary"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/text_to_binary"
+                android:textColor="@color/white"
+                android:onClick="textToBinary"
+            />
+
+            <Button
+                android:id="@+id/binary_to_text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/binary_to_text"
+                android:layout_toRightOf="@id/text_to_binary"
+                android:textColor="@color/white"
+                android:onClick="binaryToText"
+            />
+
+        </RelativeLayout> 
+        
+        <TextView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_medium"
+
+            android:typeface="monospace"
+            android:textColor="@color/white"
+        />
+        
+    </LinearLayout>
+    
+</LinearLayout>

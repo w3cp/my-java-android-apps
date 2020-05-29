@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">#0000FF</item>
+        
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:alertDialogTheme">@style/BaseDialogTheme</item>
+    </style>
+
+    <style name="BaseDialogTheme" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+    </style> 
+</resources>

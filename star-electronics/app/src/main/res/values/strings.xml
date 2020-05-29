@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Star Electronics</string>
+    <string name="date_created">2017-04-14</string>
+    <string name="date_last_modified">2017-04-17</string>
+    <string name="about">About</string>
+    <string name="my_website"><a href="https://github.com/w3cp">github.com/w3cp</a></string>
+    <string name="first_value">Enter the first value:</string>
+    <string name="second_value">Here is the second value:</string>
+    <string name="edit_text_hint"></string>
+    <string name="add1">Add 1</string>
+    <string name="dialog">Dialog</string>
+    <string name="zero">Zero</string>
+    <string name="restart">Restart</string>
+    
+    <string name="dialog_text">Wow! Matched...</string>
+    <string name="btn_finish_dialog_label">Close</string>
+    <string name="title_display_result">Result</string>
+    
+    <string name="title_login">Login</string>
+    <string name="enter_password">Please enter your license key: </string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    
+    <string name="exit_camera_tittle">Close camera and exit</string>
+    <string name="camera_running_title">Camera is running</string>
+    <string name="camera_running_text">Camera is running in Background.
+        Other camera and flashlight apps won\'t work unless you close it.</string>
+    <string name="close_camera_text">Do you want to close camera. This will 
+        close the app too!</string>
+    <string name="got_it">Got it</string>
+
+</resources>

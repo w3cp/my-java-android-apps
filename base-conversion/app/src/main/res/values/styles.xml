@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="red" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/red</item>
+        <item name="android:colorPrimaryDark">@color/redDark</item>
+        <item name="android:colorAccent">@color/redAccent</item>
+    </style>
+    
+    <style name="purple" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/purple</item>
+        <item name="android:colorPrimaryDark">@color/purpleDark</item>
+        <item name="android:colorAccent">@color/purpleAccent</item>
+    </style>
+
+    <style name="deepPurple" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/deepPurple</item>
+        <item name="android:colorPrimaryDark">@color/deepPurpleDark</item>
+        <item name="android:colorAccent">@color/deepPurpleAccent</item>
+    </style>
+
+    <style name="indigo" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/indigo</item>
+        <item name="android:colorPrimaryDark">@color/indigoDark</item>
+        <item name="android:colorAccent">@color/indigoAccent</item>
+    </style>
+
+    <style name="blue" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/blueDark</item>
+        <item name="android:colorAccent">@color/blueAccent</item>
+    </style>
+
+    <style name="lightBlue" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/lightBlue</item>
+        <item name="android:colorPrimaryDark">@color/lightBlueDark</item>
+        <item name="android:colorAccent">@color/lightBlueAccent</item>
+    </style>
+
+    <style name="cyan" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/cyan</item>
+        <item name="android:colorPrimaryDark">@color/cyanDark</item>
+        <item name="android:colorAccent">@color/cyanAccent</item>
+    </style>
+
+    <style name="teal" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/teal</item>
+        <item name="android:colorPrimaryDark">@color/tealDark</item>
+        <item name="android:colorAccent">@color/tealAccent</item>
+    </style>
+
+    <style name="green" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/green</item>
+        <item name="android:colorPrimaryDark">@color/greenDark</item>
+        <item name="android:colorAccent">@color/greenAccent</item>
+    </style>
+
+    <style name="deepOrange" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/deepOrange</item>
+        <item name="android:colorPrimaryDark">@color/deepOrangeDark</item>
+        <item name="android:colorAccent">@color/deepOrangeAccent</item>
+    </style>
+</resources>

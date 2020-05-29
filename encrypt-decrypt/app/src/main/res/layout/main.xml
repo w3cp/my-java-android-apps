@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dip">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:textSize="@dimen/font_medium"
+            android:text="@string/my_website"
+            android:typeface="monospace"
+            android:textColor="@color/light_blue"
+        />-->
+        <TextView
+            android:id="@+id/contactHtml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_extra_medium"
+            android:typeface="monospace"
+        />
+        
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_medium"
+            android:text="@string/enter_text_or_ascii_codes"
+            android:typeface="monospace"
+            android:textColor="@color/light_blue"
+        />-->
+
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/output"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dark_blue"
+                android:textColor="@color/light_blue"
+                android:padding="4dp"
+                android:typeface="monospace"
+            />
+
+        </ScrollView>-->
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/edit_key"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_key"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:typeface="monospace"
+            />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/edit_text"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:typeface="monospace"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="20000"
+                android:maxLines="6"
+            />
+        </ScrollView>
+        
+        
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+        >
+            <!--<Button
+            android:id="@+id/about"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/about"
+            />-->
+
+            <Button
+                android:id="@+id/text_to_binary"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/text_to_binary"
+                
+                android:textColor="@color/white"
+                android:onClick="encrypt"
+            />
+
+            <Button
+                android:id="@+id/binary_to_text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/binary_to_text"
+                android:layout_toRightOf="@id/text_to_binary"
+                
+                android:textColor="@color/white"
+                android:onClick="decrypt"
+            />
+
+        </RelativeLayout> 
+        
+        <TextView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_medium"
+
+            android:typeface="monospace"
+            
+        />
+        
+    </LinearLayout>
+    
+</LinearLayout>

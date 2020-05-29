@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Text2Binary Conversion</string>
+    <string name="about">About</string>
+    <string name="text_to_binary">Text to Binary</string>
+    <string name="binary_to_text">Binary to Text</string>
+    <string name="enter_text_or_ascii_codes">Enter your texts or ASCII codes:</string>
+    <string name="convert_to_binary">Convert to ASCII codes</string>
+    <string name="convert_to_text">Convert to texts</string>
+    <string name="edit_text">Bangladesh is a beautiful country. or 
+        01001100011011110111011001100101
+        [ASCII codes without space] [Only English is supported.
+         Other Languages won\'t work. Be careful]</string>
+    <string name="go_back">Go back and write something in the box</string>
+    <string name="equivalent_ascii">Equivalent ASCII:</string>
+    <string name="equivalent_text">Equivalent Text:</string>
+    <string name="my_website"><a href="https://github.com/w3cp/">github.com/w3cp/</a></string>
+    
+    <string name="title_display_result">Result</string>
+
+</resources>

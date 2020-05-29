@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dip">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/contactHtml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_medium"
+            android:typeface="monospace"
+        />
+        
+        <TextView
+            android:id="@+id/total_matched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_medium"
+            android:typeface="monospace"
+        />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_large"
+            android:text="@string/first_value"
+            android:typeface="monospace"
+            android:textColor="@color/colorPrimary"
+        />
+        
+        <EditText android:id="@+id/first_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/edit_text_hint"
+            android:textColor="@color/dark_blue"
+            android:padding="10dp"
+            android:textSize="@dimen/font_large"
+            android:typeface="monospace"
+            android:inputType="phone"
+        />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_large"
+            android:text="@string/second_value"
+            android:typeface="monospace"
+            android:textColor="@color/colorPrimary"
+        />
+        
+        <EditText android:id="@+id/second_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/edit_text_hint"
+            android:textColor="@color/dark_yellow"
+            android:padding="10dp"
+            android:textSize="@dimen/font_large"
+            android:typeface="monospace"
+            android:inputType="phone"
+        />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+        >
+            <!--<Button
+            android:id="@+id/about"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/about"
+            />-->
+
+            <Button
+                android:id="@+id/add1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/add1"
+                android:textColor="@color/white"
+                android:onClick="add1ByButton"
+            />
+
+            <!--<Button
+                android:id="@+id/dialog"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/dialog"
+                android:layout_toRightOf="@id/add1"
+                android:textColor="@color/white"
+                android:onClick="startDialog"
+            />-->
+            
+            <Button
+                android:id="@+id/zero"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/zero"
+                android:layout_toRightOf="@id/add1"
+                android:textColor="@color/white"
+                android:onClick="zero"
+            />
+        
+            <Button
+                android:id="@+id/restart"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/restart"
+                android:layout_toRightOf="@id/zero"
+                android:textColor="@color/white"
+                android:onClick="restart"
+            />
+        
+            <Button
+                android:id="@+id/exit"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/exit"
+                android:layout_toRightOf="@id/restart"
+                android:textColor="@color/white"
+                android:onClick="exit"
+            />
+
+        </RelativeLayout> 
+        
+    </LinearLayout>
+    
+</ScrollView>

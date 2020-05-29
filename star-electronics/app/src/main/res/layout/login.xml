@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dip">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_large"
+            android:text="@string/enter_password"
+            android:typeface="monospace"
+            android:textColor="@color/colorPrimary"
+        />
+
+        <EditText android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/edit_text_hint"
+            android:textColor="@color/dark_green"
+            android:padding="10dp"
+            android:typeface="monospace"
+            android:inputType="textPassword"
+        />
+    
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+            
+            <Button
+                android:id="@+id/login_cancel"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+            />
+
+            <Button
+                android:id="@+id/login_ok"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/ok"
+                android:layout_toRightOf="@id/login_cancel"
+                android:textColor="@color/white"
+            />
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+</ScrollView>
